@@ -34,3 +34,62 @@ button{
     background-position: center;
     min-height: 100vh;
 }
+
+.header__top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__btn {
+    width: 70px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu__btn span {
+    background-color: #ff5017;
+    height: 3px;
+    width: 100%;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 345px;
+line-height: 418px;
+
+background: linear-gradient(180deg, #000000 0%, #830B02 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.subtitle {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 160px;
+line-height: 194px;
+
+background: linear-gradient(90deg, #FF5017 0%, #000000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
