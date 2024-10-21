@@ -103,3 +103,30 @@ padding-bottom: 1px;
     margin: auto;
     max-width: 100%;
 }
+
+.info{
+    background-color: #f8f8f8;
+}
+
+.info{
+    padding: 170px 0;
+}
+.info__title{
+    text-align: center;
+    line-height: 0.8;
+    font-size: 160px;
+    text-transform: uppercase;
+}
+
+.info__img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.info__content{
+    display: flex;
+}
+
+.info__list{
+    column-count: 2;
+}
