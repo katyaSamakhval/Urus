@@ -162,7 +162,7 @@ body {
     font-size: 24px;
 }
 
-.info__gallery{
+.info__gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -171,22 +171,22 @@ body {
     border-radius: 20px;
 }
 
-.info__gallery img{
+.info__gallery img {
     max-width: 100%;
 }
 
-.color{
+.color {
     background-color: #f8f8f8;
 }
 
-.color__text{
+.color__text {
     text-align: center;
     text-transform: uppercase;
     font-size: 160px;
     margin-bottom: 70px;
 }
 
-.color__gallery{
+.color__gallery {
     background-color: #13171c;
 }
 
@@ -196,7 +196,7 @@ body {
     margin: 0 auto;
 }
 
-.gallery-box{
+.gallery-box {
     padding: 170px 50px;
     display: flex;
     justify-content: space-between;
@@ -204,22 +204,23 @@ body {
     text-align: center;
 }
 
-.gallery-box img{
+.gallery-box img {
     max-width: 100%;
     border-radius: 20px;
 }
 
-.gallery-box__text{
+.gallery-box__text {
     font-size: 36px;
     color: #fff;
+    text-transform: uppercase;
 }
 
-.contacts{
+.contacts {
     padding: 170px 100px;
     background-color: #13171c;
 }
 
-.contacts__title{
+.contacts__title {
     text-align: center;
     margin-bottom: 70px;
     text-transform: uppercase;
@@ -227,7 +228,7 @@ body {
     color: #ff5017;
 }
 
-.contacts__box{
+.contacts__box {
     display: flex;
     justify-content: space-between;
     gap: 40px 200px;
@@ -235,39 +236,39 @@ body {
     padding-right: 150px;
 }
 
-.contacts__headtext{
+.contacts__headtext {
     color: #BCBCBC;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 
-.contacts__info{
+.contacts__info {
     max-width: 565px;
 }
 
 .contacts__text,
 .contacts__text-rules,
-.phone{
-color: #fff;
+.phone {
+    color: #fff;
 }
 
-.contacts__text{
+.contacts__text {
     padding-top: 10px;
     margin-bottom: 20px;
     max-width: 477px;
 }
 
-.contacts__text-rules{
+.contacts__text-rules {
     padding-top: 77px;
     font-size: 14px;
     max-width: 330px;
 }
 
-.form{
+.form {
     flex-basis: 594px;
 }
 
-.form__input{
+.form__input {
     display: block;
     width: 100%;
     margin-bottom: 20px;
@@ -279,12 +280,12 @@ color: #fff;
     line-height: 1.3;
     text-transform: uppercase;
     color: #fff;
-    background-color:transparent;
+    background-color: transparent;
     border: none;
     border-bottom: 1px solid #fff;
 }
 
-.form__input::placeholder{
+.form__input::placeholder {
     font-family: "Inter Tight", sans-serif;
     font-weight: 900;
     font-size: 24px;
@@ -293,32 +294,36 @@ color: #fff;
     color: #fff
 }
 
-.form__order{
+.form__order {
     width: 100%;
 }
 
-.footer{
+.footer {
     text-align: center;
     padding: 15px 0 90px;
     font-size: 14px;
-    color:#fff;
+    color: #fff;
     background-color: #13171c;
 }
 
-@media(max-width: 1820px){
-    .info__gallery{
+@media(max-width: 1820px) {
+    .info__gallery {
         gap: 24px 20px;
     }
-    .info__gallery img{
+
+    .info__gallery img {
         width: 49%;
     }
-    .info{
+
+    .info {
         padding: 100px 0;
     }
-    .info__title{
+
+    .info__title {
         font-size: 86px;
     }
-    .info__content{
+
+    .info__content {
         padding-left: 0;
         padding-right: 0;
         margin-bottom: 100px;
@@ -327,47 +332,89 @@ color: #fff;
 }
 
 @media (max-width: 1040px) {
-    .info__gallery img{
+    .info__gallery img {
         width: 100%;
     }
-    .info__list{
+
+    .info__list {
         gap: 20px;
     }
-    .info__content{
+
+    .info__content {
         margin-bottom: 50px;
     }
-    .price{
+
+    .price {
         font-size: 32px;
         margin-bottom: 10px;
     }
 }
 
+@media (max-width: 1600px) {
+    .contacts__box{
+        padding-left: 150px;
+    }
+}
+
 @media (max-width: 1200px) {
-    .title{
-    font-size: 280px;
-    padding-left: 0;
+    .title {
+        font-size: 278px;
+        padding-left: 0;
     }
 
-    .subtitle{
+    .subtitle {
         font-size: 140px;
         padding-right: 0;
     }
 
-    .header__images{
+    .header__images {
         top: 0;
+    }
+
+    .color__text {
+        font-size: 88px;
+        margin-bottom: 20px;
+    }
+
+    .gallery-box {
+        padding: 50px 20px;
+        flex-wrap: wrap;
+    }
+
+    .gallery-box__item {
+        width: 48%;
+    }
+
+    .gallery-box img {
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .contacts__box{
+        padding-left: 0;
+        padding-right: 0;
+        gap: 60px;
+    }
+
+    .contacts{
+        padding: 100px 0;
+    }
+
+    .footer{
+        padding-bottom: 50px;
     }
 }
 
 @media (max-width: 800px) {
-    .header__top{
+    .header__top {
         padding-top: 25px;
     }
 
-    .title{
-    font-size: 180px;
+    .title {
+        font-size: 180px;
     }
 
-    .subtitle{
+    .subtitle {
         font-size: 90px;
     }
 
@@ -376,35 +423,88 @@ color: #fff;
         border: 1px solid #000;
     }
 
-    .info__title{
+    .info__title {
         font-size: 54px;
     }
 
-    .info__list{
+    .info__list {
         column-count: 1;
     }
-    
-    .info__list-line{
+
+    .info__list-line {
         margin-bottom: 5px;
         font-size: 18px;
+    }
+
+    .contacts__box{
+        display: block;
+    }
+
+    .contacts__text-rules{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .form__order{
+        width: auto;
     }
 }
 
 @media (max-width: 670px) {
-.info__content{
-    display: block;
-    text-align: center;
-}
-}
-
-@media (max-width: 520px) {
-    .title{
-    font-size: 120px;
+    .info__content {
+        display: block;
+        text-align: center;
     }
 
-    .subtitle{
+    .color__text{
+        font-size: 38px;
+    }
+
+    .gallery-box__item{
+        width: 100%;
+    }
+}
+
+@media (max-width: 530px) {
+    .title {
+        font-size: 122px;
+    }
+
+    .subtitle {
         font-size: 70px;
     }
+
+    .info {
+        padding: 50px 0;
+    }
+
+    .info__title {
+        font-size: 44px;
+        line-height: 1;
+    }
+    .contacts__title{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .contacts{
+        padding: 50px 0;
+    }
+    .contacts__headtext{
+        font-size: 18px;
+    }
+    .contacts__text{
+        font-size: 18px;
+    }
+    .form__input{
+        font-size: 18px;
+    }
+    .form__input::placeholder{
+        font-size: 18px;
+    }
+    .order{
+        font-size: 18px;
+    }
+    .form__order{
+        width: 100%;
+    }
 }
-
-
