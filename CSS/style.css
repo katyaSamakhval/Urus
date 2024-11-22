@@ -39,7 +39,7 @@ body {
 }
 
 .header {
-    background-image: url(../images/header-bg.jpg);
+    background-image: url(../images/orange.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -87,7 +87,7 @@ body {
 
 .subtitle {
     font-size: 160px;
-    background: linear-gradient(90deg, #FF5017 0%, #000000 100%);
+    background: linear-gradient(90deg, #ad2b00 0%, #000000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -123,7 +123,7 @@ body {
 }
 
 .info__img {
-    max-width: 100%;
+    max-width: 50%;
     margin: 0 auto;
 }
 
@@ -304,6 +304,13 @@ body {
     font-size: 14px;
     color: #fff;
     background-color: #13171c;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__rules{
+    padding-top: 50px;
 }
 
 @media(max-width: 1820px) {
@@ -506,5 +513,14 @@ body {
     }
     .form__order{
         width: 100%;
+    }
+}
+
+@media(max-width: 350px) {
+    .footer-text{
+        font-size: 9px;
+    }
+    .footer__rules{
+        font-size: 8px;
     }
 }
