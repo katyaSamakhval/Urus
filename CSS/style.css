@@ -299,18 +299,37 @@ body {
 }
 
 .footer {
-    text-align: center;
     padding: 15px 0 90px;
     font-size: 14px;
     color: #fff;
-    background-color: #13171c;
+    background-color: #10131c;
 }
 .footer-text{
     display: flex;
-    justify-content: space-around;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
 }
 .footer__rules{
     padding-top: 50px;
+    margin-left: 15px;
+    color: dimgrey;
+}
+
+.footer__img{
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    padding-top: 15px;
+}
+
+.footer__about{
+    display: flex;
+    gap: 170px;
+    padding-top: 40px;
 }
 
 @media(max-width: 1820px) {
