@@ -555,4 +555,12 @@ body {
     .footer__rules{
         font-size: 8px;
     }
+    .footer__about{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .footer__about-grey{
+        flex-wrap: wrap;
+        gap: 17px;
+    }
 }
