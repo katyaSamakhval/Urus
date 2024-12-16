@@ -328,8 +328,21 @@ body {
 
 .footer__about{
     display: flex;
-    gap: 170px;
     padding-top: 40px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer__about-grey{
+    display: flex;
+    color: grey;
+    gap: 120px;
+    justify-content: space-evenly;
+    line-height: 2em;
+    text-align: center;
 }
 
 @media(max-width: 1820px) {
