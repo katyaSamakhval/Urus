@@ -502,6 +502,20 @@ body {
     .gallery-box__item{
         width: 100%;
     }
+    .footer-text{
+        font-size: 9px;
+    }
+    .footer__rules{
+        font-size: 8px;
+    }
+    .footer__about{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .footer__about-grey{
+        flex-wrap: wrap;
+        gap: 17px;
+    }
 }
 
 @media (max-width: 530px) {
@@ -545,6 +559,20 @@ body {
     }
     .form__order{
         width: 100%;
+    }
+    .footer-text{
+        font-size: 9px;
+    }
+    .footer__rules{
+        font-size: 8px;
+    }
+    .footer__about{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .footer__about-grey{
+        flex-wrap: wrap;
+        gap: 17px;
     }
 }
 
